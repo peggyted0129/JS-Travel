@@ -1,0 +1,52 @@
+.banner {
+  @include banner('../images/Hero.png', 380px); 
+  margin-bottom: 210px;
+}
+.select {
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid $white;
+  height: 48px;
+}
+.area {
+  width: 70%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+  & .btn {
+    width: 15%;
+  }
+}
+.arrow img {
+  transform: translateY(-8px);
+}
+.arrow:before {
+  @include el-before;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid $primary;
+  @include position-center;
+  top: -20%;
+}
+.line {
+  margin-top: 133px;
+}
+.dashed {
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 2px dashed $primary;
+}
+.pic {
+  height: 155px;
+  object-fit: center;
+  width: 100%;
+}
+.icon {
+  width: 16px;
+  height: auto;
+}
+.card-title {
+  bottom: -20%;
+}

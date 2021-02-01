@@ -1,0 +1,41 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import "base";
+@import "mixin";
+@import "utility";
+@import "index";
+
+
+
+/*
+$primary:    #559AC8 !default; // 粉藍
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info:   #FFA782 !default; // 粉橘
+$warning: $yellow !default;
+$danger: #8A82CC !default; // 粉紫
+$light:  $gray-100 !default;
+$dark:   $gray-800 !default;
+$lgray:  $lgray !default;
+
+// 1:($spacer * 0.25),  4px
+// 2: ($spacer * .375), 6px
+// 3: ($spacer * 0.5),  8px
+// 4: ($spacer * .75),  12px
+// 5: $spacer,          16px
+// 6:($spacer * 1.25),  20px
+// 7: ($spacer * 1.5),  24px
+// 8: ($spacer * 1.75), 28px
+// 9: ($spacer * 2),    32px
+// 10: ($spacer * 2.25), 36px
+// 11: ($spacer * 2.5),   40px
+// 12: ($spacer * 3),  48px
+// 13: ($spacer * 3.25),  52px
+// 14: ($spacer * 3.75),  60px
+// 15: ($spacer * 4),  64px
+// 16: ($spacer * 5),     80px
+// 17: ($spacer * 6.5)  108px
+*/

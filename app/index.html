@@ -1,0 +1,69 @@
+---
+title: Fixie
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="banner position-relative">
+  <div class="d-flex flex-column justify-content-center h-100 align-items-center">
+    <h2 class="text-white mb-16">高雄旅遊資訊</h2>
+    <select class="select form-control radius-s font-weight-bolder w-50">
+      <option selected disabled>-- 請選擇行政區 --</option>
+      <option value="全部行政區">全部行政區</option>
+    </select>
+  </div>
+  <!-- 熱門行政區 -->
+  <div class="area radius-s p-6 border position-absolute bg-white">
+    <h3 class="h4 font-weight-bolder mb-5">熱門行政區</h3>
+    <div class="d-flex btn-list">
+      <button type="button" class="btn btn-danger py-3 px-6 mr-7 ml-13">苓雅區</button>
+      <button type="button" class="btn btn-info py-3 px-6 mr-7">三民區</button>
+      <button type="button" class="btn btn-warning py-3 px-6 mr-7">新興區</button>
+      <button type="button" class="btn btn-primary py-3 px-6 mr-7">鹽埕區</button>
+    </div>
+  </div>
+  <!-- 分隔線 -->
+  <div class="line">
+    <hr class="dashed">
+    <div class="arrow position-relative d-flex justify-content-center">
+      <img src="./assets/images/icons_down.png" alt="icons_down">
+    </div>
+  </div>
+</header>
+<section class="container mb-17">
+  <h2 class="travel-title text-center text-danger mb-7">全部行政區</h2>
+  <div class="row innertext no-gutters">
+    <!-- <div class="col-6 mb-10">
+      <div class="card mx-9">
+        <div class="position-relative">
+          <img src="./assets/images/Hero.png" class="pic card-img-top" alt="area-pic">
+          <div class="card-title w-100 text-white d-flex p-7 justify-content-between position-absolute">
+            <h5 class="card-title">高雄願景館</h5>
+            <p class="pt-1">三民區</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <li class="d-flex mb-4">
+            <img class="icon mr-4" src="./assets/images/icons_clock.png" alt="clock-pic">
+            <p>週二至週日10:00-18:00，每週一公休</p>
+          </li>
+          <li class="d-flex mb-4">
+            <img class="icon mr-4" src="./assets/images/icons_pin.png" alt="location-pic">
+            <p>高雄市三民區建國二路318號</p>
+          </li>
+          <li class="d-flex justify-content-between">
+            <div class="d-flex">
+              <img class="icon mr-4" src="./assets/images/icons_phone.png" alt="phone-pic">
+              <p>886-7-2363357</p>
+            </div>
+            <div class="d-flex">
+              <img class="icon mr-4" src="./assets/images/icons_tag.png" alt="tag-pic">
+              <p>免費參觀</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
